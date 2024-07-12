@@ -1,0 +1,84 @@
+element { border-radius: value }
+
+
+.rounded-box {
+    width: 200px;
+    height: 100px;
+    border: 2px solid #000; /* Border color and width */
+    border-radius: 15px; /* Radius for rounded corners */
+    padding: 20px; /* Padding inside the box */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+body,
+html {
+    overflow-x:hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+nav a{
+    text-decoration: none;
+    color: #2E2E2E;
+}
+.list-one {
+    list-style-type: none;
+    display: flex;
+    padding: 1rem;
+    gap: 2rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.list-two {
+    list-style: none;
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%)
+}
+
+.title {
+    color: #2e2e2e;
+    z-index: 2;
+    font-size: 3rem;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%)
+}
+
+.drinks {
+    font-size: 16px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    background-color: #5E714F;
+    border: none;
+    color: white;
+    width: 125px;
+    border-radius: 20px;
+    padding: 7px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+
+    top: 30%;
+    left: 70%;
+
+}
+
+.drinks:hover {
+    font-size: 16px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    background-color: #5E714F;
+    border: none;
+    color: white;
+    width: 125px;
+    border-radius: 20px;
+    padding: 7px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
